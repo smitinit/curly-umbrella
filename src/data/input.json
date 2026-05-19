@@ -1,0 +1,83 @@
+{
+  "personal": {
+    "name": "Smit Patel",
+    "title": "Software Engineer",
+    "email": "smit.patel@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "website": "https://smitpatel.dev",
+    "website_text": "smitpatel.dev",
+    "linkedin": "https://linkedin.com/in/smitpatel",
+    "linkedin_text": "linkedin.com/in/smitpatel"
+  },
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "elements": ["Python", "JavaScript", "TypeScript", "SQL"]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "elements": ["React", "Node.js", "FastAPI", "Django"]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "elements": ["AWS", "Docker", "GitHub Actions", "Terraform"]
+    },
+    {
+      "title": "Databases",
+      "elements": ["PostgreSQL", "MongoDB", "Redis"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Name",
+      "description": "Brief description of what this project does, the tech used, and the impact it had.",
+      "link": "<a href='https://github.com/smitpatel/project' color='blue'>(GitHub)</a>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Company Name",
+      "location": "City, State",
+      "start_date": "Jan 2022",
+      "end_date": "Present",
+      "description": [
+        "Led development of X feature used by Y users, resulting in Z% improvement in performance.",
+        "Collaborated with cross-functional teams to deliver quarterly roadmap goals on time.",
+        "Reduced infrastructure costs by 30% by migrating services to containerized architecture."
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Previous Company",
+      "location": "City, State",
+      "start_date": "Jun 2020",
+      "end_date": "Dec 2021",
+      "description": [
+        "Built and maintained REST APIs serving 50,000+ daily requests.",
+        "Implemented automated testing suite increasing code coverage from 40% to 85%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "course": "B.S. Computer Science, GPA: 3.8/4.0",
+      "location": "City, State",
+      "start_date": "Aug 2016",
+      "end_date": "May 2020"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Won 1st place at XYZ Hackathon (2023) among 200+ participants"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect",
+      "link": "<a href='https://aws.amazon.com/certification/' color='blue'>(Verify)</a>"
+    }
+  ]
+}

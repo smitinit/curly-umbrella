@@ -1,0 +1,97 @@
+.env
+.venv/
+venv/
+env/
+env.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+,cover
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets / env
+.env
+.env.*
+secrets.toml
+credentials.json
+service-account.json
+
+# Supabase local files
+.supabase/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDE/workspace files
+*.sublime-project
+*.sublime-workspace
+
+# Coverage
+coverage/
+
+# Build artifacts
+*.manifest
+*.spec
+command.md
