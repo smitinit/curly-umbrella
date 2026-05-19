@@ -1,5 +1,5 @@
 reportlab==4.0.4
-Pillow==10.0.0
+Pillow==11.0.0
 PyMuPDF==1.26.4
 openai==1.63.2
 streamlit==1.37.1
