@@ -2,5 +2,6 @@ reportlab==4.0.4
 Pillow==10.4.0
 PyMuPDF==1.26.4
 openai==1.63.2
-streamlit==1.37.1
+Flask==3.0.3
 python-dotenv==1.0.1
+supabase>=2.0.0

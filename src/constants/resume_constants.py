@@ -5,12 +5,16 @@ from reportlab.lib import colors
 
 # ── Section order in the final PDF ────────────────────────────────────────────
 RESUME_ELEMENTS_ORDER = [
+    "summary",
     "skills",
-    "projects",
     "experience",
+    "projects",
     "education",
-    "achievements",
     "certifications",
+    "awards",
+    "volunteering",
+    "languages",
+    "achievements",
 ]
 
 # ── Paragraph styles ───────────────────────────────────────────────────────────
@@ -79,11 +83,12 @@ COMPANY_LOCATION_PARAGRAPH_STYLE = ParagraphStyle(
 )
 
 JOB_DETAILS_PARAGRAPH_STYLE = ParagraphStyle(
-    "job_details_paragraph",
+   "job_details_paragraph",
     fontName=GARAMOND_REGULAR,
     fontSize=10,
     leading=13,
-    leftIndent=12,
+    leftIndent=14,
+    bulletIndent=4,
     alignment=TA_JUSTIFY,
 )
 
@@ -92,7 +97,8 @@ PROJECT_PARAGRAPH_STYLE = ParagraphStyle(
     fontName=GARAMOND_REGULAR,
     fontSize=10,
     leading=13,
-    leftIndent=12,
+    leftIndent=14,
+    bulletIndent=4,
     alignment=TA_JUSTIFY,
 )
 
